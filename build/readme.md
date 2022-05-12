@@ -30,7 +30,7 @@ $./wolfssl-config --version
 5.0.0
 ```
 
-### `wolfSSL` API 环境
+### `wolfSSL API` 环境
 ``` shell
 sudo apt-get install libwolfssl-dev
 ```
