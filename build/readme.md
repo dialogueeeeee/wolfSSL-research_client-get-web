@@ -16,18 +16,20 @@ sudo apt-get install gcc
 ````
 ### `wolfssl` 环境
 
-    - 在 https://www.wolfssl.com/download 下载 ``wolfssl`` 和 ``tiny-curl`` 最新版本。（当前为 ``wolfssl-5.0.0.zip`` 和 ``tiny-curl-7.72.0.zip``）
-    - 安装 wolfssl
-    ``` shell
-    $ unzip wolfssl-5.0.0.zip 
-    $ cd wolfssl-5.0.0 
-    $ ./configure --prefix /usr/local/wolfssl 
-    $ make 
-    $ sudo make install 
+- 在 https://www.wolfssl.com/download 下载 ``wolfssl`` 和 ``tiny-curl`` 最新版本。（当前为 ``wolfssl-5.0.0.zip`` 和 ``tiny-curl-7.72.0.zip``）
+- 安装 wolfssl
+``` shell
+$ unzip wolfssl-5.0.0.zip 
+$ cd wolfssl-5.0.0 
+$ ./configure --prefix /usr/local/wolfssl 
+$ make 
+$ sudo make install 
 
-    $ cd /usr/local/wolfssl/bin 
-    $./wolfssl-config --version 
-    5.0.0
+$ cd /usr/local/wolfssl/bin 
+$./wolfssl-config --version 
+5.0.0
+```
+
 ### `wolfSSL` API 环境
 ``` shell
 sudo apt-get install libwolfssl-dev
